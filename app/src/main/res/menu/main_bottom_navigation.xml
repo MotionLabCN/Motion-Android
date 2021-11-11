@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:checked="true"
+        android:icon="@mipmap/icon_hone"
+        android:title="home" />
+    <item
+        android:id="@+id/menu_project"
+        android:icon="@mipmap/icon_search"
+        android:title="search" />
+    <item
+        android:id="@+id/menu_square"
+        android:icon="@mipmap/icon_pie_chart"
+        android:title="store" />
+<!--    <item-->
+<!--        android:id="@+id/menu_official_account"-->
+<!--        android:icon="@mipmap/official_account"-->
+<!--        android:title="@string/tab_4" />-->
+<!--    <item-->
+<!--        android:id="@+id/menu_mine"-->
+<!--        android:icon="@mipmap/icon_mail"-->
+<!--        android:title="mail" />-->
+</menu>

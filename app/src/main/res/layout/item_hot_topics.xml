@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_bg"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding">
+
+    <com.common.baselibrary.widget.CircleImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvTag"
+                android:text="路人甲"
+                android:textColor="@color/Black_1000"
+                android:textSize="@dimen/body_2"
+                android:textStyle="bold"
+                tools:text="路人甲" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvTag"
+                android:text=" @nickname"
+                android:textColor="@color/Gray_600"
+                android:textSize="@dimen/body_2"
+                tools:text=" @nickname" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvTag"
+                android:text="武汉大学计算机社团"
+                android:textColor="@color/Black_1000"
+                android:textSize="@dimen/body_3"
+                tools:text="武汉大学计算机社团" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tvTag"
+                android:text=" #baidu.com"
+                android:textColor="@color/Gray_600"
+                android:textSize="@dimen/body_3"
+                tools:text=" #baidu.com" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDate"
+            android:layout_marginTop="6dp"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="3"
+            android:text="分布式协调工具之zook分布式协分布式协调工具之zookeeper使用篇Z调工具之zookeeper使用篇Zeeper使用篇Zeeper使用篇Zeeper使用篇"
+            android:textColor="@color/Black_1000"
+            android:textSize="@dimen/body_3"
+            tools:text="分布式协调工具之zook分布式协分布式协调工具之zookeeper使用篇-Z调工具之zookeeper使用篇-Zeeper使用篇-Zeeper使用篇" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/warning" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/icon_chat"
+                android:text="12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/icon_cached"
+                android:layout_marginLeft="50dp"
+                android:text="121" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/icon_penny"
+                android:layout_marginLeft="50dp"
+                android:text="122" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

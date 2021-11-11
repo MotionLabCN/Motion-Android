@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_1">15dp</dimen>
+    <dimen name="text_2">13dp</dimen>
+    <dimen name="text_3">11dp</dimen>
+    <dimen name="text_title">19dp</dimen>
+    <dimen name="dialog_text_content">17dp</dimen>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="dividing_line">30dp</dimen>
+    <dimen name="set_padding">26dp</dimen>
+    <dimen name="padding_left">20dp</dimen>
+    <dimen name="padding_right">20dp</dimen>
+
+    // 字体大小
+    <dimen name="large_title">34sp</dimen>
+    <dimen name="title_1">28sp</dimen>
+    <dimen name="title_2">22sp</dimen>
+    <dimen name="title_3">20sp</dimen>
+    <dimen name="body_1">17sp</dimen>
+    <dimen name="body_2">15sp</dimen>
+    <dimen name="body_3">13sp</dimen>
+    <dimen name="caption_1">12sp</dimen>
+    <dimen name="caption_2">11sp</dimen>
+
+    <dimen name="spacer_1">10dp</dimen>
+    <dimen name="spacer_2">20dp</dimen>
+    <dimen name="spacer_3">30dp</dimen>
+    <dimen name="spacer_4">40dp</dimen>
+    <dimen name="spacer_5">50dp</dimen>
+</resources>

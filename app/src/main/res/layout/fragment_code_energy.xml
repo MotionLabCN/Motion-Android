@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gray_100"
+    android:orientation="vertical">
+
+
+
+       <com.scwang.smartrefresh.layout.SmartRefreshLayout
+           android:id="@+id/smartRefresh"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:srlEnableAutoLoadMore="false"
+           app:srlEnableLoadMore="true"
+           app:srlEnableOverScrollBounce="true"
+           app:srlEnableRefresh="true">
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/rvSystem"
+                  android:overScrollMode="never"
+                  android:paddingLeft="@dimen/spacer_1"
+                  android:paddingRight="@dimen/spacer_1"
+                  android:paddingStart="@dimen/spacer_1"
+                  android:paddingEnd="@dimen/spacer_1" />
+
+       </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+       <com.common.baselibrary.widget.LoadingTip
+           android:id="@+id/loadingTip"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:visibility="gone" />
+
+
+
+</LinearLayout>

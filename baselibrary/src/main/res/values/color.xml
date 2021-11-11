@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F60B0B</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--    #F60B0B-->
+    <color name="theme">#F60B0B</color>
+    <color name="theme_2">#00CAAE</color>
+    <color name="normal_color">#bfbfbf</color>
+
+    <!--    点击波纹效果颜色-->
+    <color name="ripple_gray">#D1D1D1</color>
+    <!--    点击波纹效果颜色-->
+    <color name="search_bg_gray">#F7F7F7</color>
+
+    <!--    一级标题颜色-->
+    <color name="text_1">#333333</color>
+    <!--    二级标题颜色-->
+    <color name="text_2">#999999</color>
+    <!--    三级标题颜色-->
+    <color name="text_3">#bbbbbb</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#111111</color>
+    <color name="red">#F60B0B</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="Accent_Purple">#860CF2</color>
+    <color name="Accent_900">#9C7C45</color>
+    <color name="Accent_800">#C1A14E</color>
+    <color name="Accent_700">#D7B653</color>
+    <color name="Accent_600">#EDCC5A</color>
+    <color name="Accent_500">#FDDD5F</color>
+    <color name="Accent_400">#FFE274</color>
+    <color name="Accent_300">#FFE88B</color>
+    <color name="Accent_200">#FFEFAA</color>
+    <color name="Accent_100">#FFF4CB</color>
+    <color name="Accent_050">#FFFBEA</color>
+
+
+    <color name="Black_1000">#000000</color>
+    <color name="White_1000">#FFFFFF</color>
+    <color name="Gray_900">#212121</color>
+    <color name="Gray_800">#424242</color>
+    <color name="Gray_700">#616161</color>
+    <color name="Gray_600">#757575</color>
+    <color name="Gray_500">#9E9E9E</color>
+    <color name="Gray_300">#E0E0E0</color>
+    <color name="Gray_200">#EEEEEE</color>
+    <color name="Gray_100">#F5F5F5</color>
+    <color name="Gray_050">#FAFAFA</color>
+
+
+
+    <color name="danger">#C94545</color>
+    <color name="warning">#E9C33F</color>
+    <color name="success">#26B17F</color>
+    <color name="play">#36C5F0</color>
+    <color name="opacity_80">#33EEEEEE</color>
+    <color name="opacity_60">#7FEEEEEE</color>
+
+    <color name="Accent_Purple_80">#33860CF2</color>
+    <color name="warning_80">#33E9C33F</color>
+</resources>

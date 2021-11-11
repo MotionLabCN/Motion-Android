@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_white_dailog_bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:id="@+id/tv_email_or_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="152 **** 2222"
+            android:textColor="@color/Black_1000"
+            android:textSize="@dimen/title_2"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="中国移动提供认证服务"
+            android:textColor="@color/Gray_600"
+            android:textSize="@dimen/body_3" />
+
+        <TextView
+            android:id="@+id/tv_login_for_phone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_bg_radius"
+            android:gravity="center"
+            android:text="本机号码一键登录"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body_3"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_login_for_github"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/logion_botton_storke"
+            android:gravity="center"
+            android:text="使用Github登陆"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body_3"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_login_for_apple"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/logion_botton_storke"
+            android:gravity="center"
+            android:text="使用apple登陆"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body_3"
+            android:textStyle="bold" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/Gray_300" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="或" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/Gray_300" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_login_for_other"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/logion_botton_storke"
+            android:gravity="center"
+            android:text="其他手机号登陆"
+            android:textColor="@color/black"
+            android:textSize="@dimen/body_3"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

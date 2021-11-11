@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/button_bg_warning_radius" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="节点盈利"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/Black_1000"
+        android:textSize="@dimen/title_3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="基于去中心化的分布式存储协议，享受存储服务的同时，有机会为他人提供存储空间，以获取收益。"
+        android:textColor="@color/Gray_600"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/body_2"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/selector_main_btn"
+        android:gravity="center"
+        android:text="加入存储节点"
+        android:textColor="@color/white"
+        android:textSize="@dimen/body_2"
+        android:textStyle="bold" />
+
+</LinearLayout>

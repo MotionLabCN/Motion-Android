@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天天数链/计算模块/"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/Black_1000"
+        android:textSize="@dimen/title_3"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

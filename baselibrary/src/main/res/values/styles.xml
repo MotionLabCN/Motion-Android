@@ -1,0 +1,22 @@
+<resources>
+
+
+    <declare-styleable name="SwipeMenuView">
+        <attr name="swipeEnable" format="boolean" />
+        <attr name="ios" format="boolean" />
+        <attr name="leftSwipe" format="boolean" />
+    </declare-styleable>
+
+    <!--圆形图片-->
+    <declare-styleable name="CircleImageView">
+        <!--设置视图边角线条宽度-->
+        <attr name="circleImageBorderWidth" format="dimension|reference|integer" />
+        <!--设置视图边角线条颜色-->
+        <attr name="circleImageBorderColor" format="color|reference" />
+        <!--设置视图覆盖图-->
+        <attr name="circleImageBorderOverlay" format="boolean" />
+        <!--设置视图填充颜色-->
+        <attr name="circleImageBorderFillColor" format="color|reference" />
+    </declare-styleable>
+
+</resources>

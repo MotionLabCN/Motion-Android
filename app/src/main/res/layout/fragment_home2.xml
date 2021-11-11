@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.newtouch.motion.ui.main.home.HomeFragment">
+
+    <include layout="@layout/layout_public_toolbar" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/smartRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:srlEnableAutoLoadMore="false"
+        app:srlEnableLoadMore="true"
+        app:srlEnableOverScrollBounce="true"
+        app:srlEnableRefresh="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHomeList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <com.common.baselibrary.widget.LoadingTip
+        android:id="@+id/loadingTip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_search_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="尚未连接任何人"
+            android:textColor="@color/Black_1000"
+            android:textSize="@dimen/title_2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center"
+            android:text="Motion是创造者门加速他们伟大创\n造的地方。科技、艺术、制造业工作\n者们在这里见面，组成协作团队"
+            android:textColor="@color/Gray_600"
+            android:textSize="@dimen/body_3"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_search_friend"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_bg_warning_radius"
+            android:gravity="center"
+            android:text="查找朋友"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body_1" />
+
+    </LinearLayout>
+</LinearLayout>
